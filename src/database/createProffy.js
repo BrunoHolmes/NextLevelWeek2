@@ -41,7 +41,7 @@ module.exports = async function (db, { proffyValue, classValue, classScheduleVal
                 time_to
             ) VALUES (
                 "${class_id}",
-                "${classScheduleValue.weeday}",
+                "${classScheduleValue.weekday}",
                 "${classScheduleValue.time_from}",
                 "${classScheduleValue.time_to}"
             );
